@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #952790;
+    opacity: .90;
+}
+
+/*Menu*/
+.dropdownMenu{
+    color:"white" !important;
+}
+.dropdownMenu:focus{
+    background-color: rgba(218, 112, 214, 0.4) !important;
+}
+.dropdown-item.active{
+    background-color: rgba(218, 112, 214, 0.4) !important
+}
+
+.dropdownMenu:hover {
+    background-color: rgba(218, 112, 214, 0.4) !important;
+}

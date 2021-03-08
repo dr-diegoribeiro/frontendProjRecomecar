@@ -1,0 +1,56 @@
+.containerBanner {
+  padding: 20px 0;
+}
+.bannerGestante {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: cubic-bezier(0.43, -0.27, 0.11, 0.93) all .5s;
+}
+.containerBanner strong {
+  color: rgba(149,39,144,1);
+}
+.containerBanner span {
+  color: rgba(166,166,166,1);
+}
+.containerBanner p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(149,39,144,1);
+
+}
+.containerBanner .underline {
+  padding: 1px 120px;
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(218,112,214,.3),rgba(218,112,214,1));
+  display: inline;
+}
+
+@media (min-width: 990px) {
+  .bannerGestante {
+    height: 20rem;
+    background-image: url(./svg-1024+.svg);
+  }
+}
+@media (max-width: 989px) {
+  .bannerGestante {
+    height: 18rem;
+    background-image: url(./svg-1024.svg);
+  }
+}
+@media (max-width: 700px) {
+  .bannerGestante {
+    height: 15rem;
+    background-image: url(./svg-768.svg);
+  }
+  .containerBanner h1 {
+    font-size: 1.5rem;
+  }
+  .containerBanner .underline {
+    display: none;  
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
